@@ -1,6 +1,84 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  text-emphasis-color: rgb(194, 192, 255);
+  gap: 20px;
+  background-color: antiquewhite;
 }
+.book-imge {
+  width: 500px;
+  border-radius: 55%;
+}
+
+.book1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10;
+  padding: 20px;
+  
+}
+.gc-imge {
+  display: flex;
+  align-items: center;
+  width: 0px;
+  border-radius: 10%;
+}
+
+.book2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10;
+  padding: 19px;
+}
+.rD-imge {
+  display: flex;
+  align-items: center;
+  width: 490px;
+  border-radius: 10%;
+}
+.bigDiv {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +100,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100;
+  height: 100;
 }
 
 .App-link {
@@ -35,4 +115,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.book-imge {
+  height: 550px;
+  width: 700px;
+  border-radius: 70%;
+}
+
+.gc-imge {
+  width: 500px;
 }
