@@ -1,9 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import products from "./products.js";
-import bookStore from "./products.js";
-import gC from "./products.js";
-import rD from "./products.js";
+
+import Productlist from "./Components/Productlist.js";
 
 function App() {
   return (
@@ -16,33 +14,7 @@ function App() {
         className="book-imge"
       />
 
-
-    <div className="bigDiv">
-
-      <div className="book1">
-      <img
-      src="https://best-kutub.com/wp-content/uploads/2023/06/egb227873-5242517.jpg"
-        
-        alt="gC"
-        className="gc-imge"
-
-      />
-       <p>{products[0].name}</p>
-      <p>{products[0].price}</p>
-      </div>
-
-    <div className ="book2">
-      <img
-        src="https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg"
-        alt="rD"
-        className="rD-imge"
-      />
-      <p>{products[1].name}</p>
-      <p>{products[1].price}</p>
-     </div>
-
-     </div>
-     
+      <Productlist />
     </div>
   );
 }
